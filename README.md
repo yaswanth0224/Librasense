@@ -1,6 +1,6 @@
 # 📚 LibraSense v2 — Full Stack Library Seat System
 
-**AppXcelerate 1.0 · Smart Campus App · SRM KTR**
+**· Smart Campus App · SRM KTR**
 
 ---
 
@@ -71,28 +71,16 @@ npm start
 You'll see: `🚀 LibraSense running at http://localhost:3000`
 
 ### Step 5 — Open the app
-Go to: **http://localhost:3000**
+Go to: **https://librasense.onrender.com/**
 
 ---
 
 ## 👤 Default Admin Login
 ```
 Email:    admin@srmist.edu.in
-Password: Admin@1234
+Password: Admin@srmist
 ```
 *(Change these in .env before demo)*
-
----
-
-## 🌐 Deploy Live (Free — Render.com)
-
-1. Push code to GitHub
-2. Go to **render.com** → New Web Service → Connect your repo
-3. Set:
-   - Build command: `cd backend && npm install`
-   - Start command: `cd backend && npm start`
-4. Add all `.env` variables in Render's Environment tab
-5. Done — you get a live HTTPS URL!
 
 ---
 
@@ -106,10 +94,6 @@ https://your-app.onrender.com?seat=A03
 When scanned:
 - If not logged in → redirected to login → then to that seat
 - If logged in → seat detail opens automatically
-
-**For the hackathon demo**: Print QR codes from the app and stick them on chairs!
-
----
 
 ## 🏗️ API Endpoints
 
@@ -129,17 +113,6 @@ When scanned:
 
 ---
 
-## 🎤 Demo Script (2 minutes)
-
-1. Open the live URL on your phone
-2. Register as a new student — show the welcome email
-3. Click any green seat → Quick Check In → seat turns red live
-4. On another device, book a seat → shows yellow with timer
-5. Log in as admin → show analytics chart + override a seat
-6. Scan a seat's QR code → show it opens check-in directly
-
----
-
 ## 🗺️ Real-World Deployment Plan
 
 > "In real deployment at SRM, we would:
@@ -151,4 +124,4 @@ When scanned:
 
 ---
 
-*Built for AppXcelerate 1.0 · SRM Institute of Science and Technology · March 2026*
+*Built for · SRM Institute of Science and Technology · March 2026*
