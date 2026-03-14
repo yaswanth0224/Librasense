@@ -60,7 +60,7 @@ EMAIL_PASS=xxxx xxxx xxxx xxxx   ← 16-char app password (no spaces)
 EMAIL_FROM=LibraSense <yourgmail@gmail.com>
 
 ADMIN_EMAIL=admin@srmist.edu.in
-ADMIN_PASSWORD=Admin@1234
+ADMIN_PASSWORD=Admin@srmist
 ```
 
 ### Step 4 — Run the server
@@ -70,7 +70,7 @@ npm start
 ```
 You'll see: `🚀 LibraSense running at http://localhost:3000`
 
-### Step 5 — Open the app
+### Step 5 — Open chrome
 Go to: **https://librasense.onrender.com/**
 
 ---
